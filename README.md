@@ -20,11 +20,61 @@ Note: If the number is a multiple of both 3 and 5, only count it once.
 ### PYTHON SOLUTION:
 
 ```py
+ def solution(number):
+    return sum(x for x in range(number) if x % 3 == 0 or x % 5 == 0)
+```
+
+```py
 def solution(number):
-    if number == (abs(number) * -1):
-        return 0
-    list_of_numbers = [i for i in range(1,number) if i%3==0 or i%5==0]
-    return sum(list_of_numbers)
+    threes = list(range(3, number, 3))
+    fives = list(range(5, number, 5))
+    return sum(list(set(threes + fives)))
+```
+
+```py
+def solution(number):
+    sum = 0
+    for i in range(number):
+        if (i % 3) == 0 or (i % 5) == 0:
+            sum += i
+    return sum
+```
+
+### JAVASCRIPT SOLUTION:
+
+```js
+function solution(number) {
+  let total = 0;
+  for (let i = 0; i < number; i++) {
+    if (i % 3 === 0 || i % 5 === 0) {
+      total += i;
+    }
+  }
+  return total;
+}
+```
+
+```js
+function solution(number) {
+  return number < 1
+    ? 0
+    : [...new Array(number).keys()]
+        .filter((n) => n % 3 == 0 || n % 5 == 0)
+        .reduce((a, b) => a + b);
+}
+```
+
+# #END</details>
+
+<details>
+<summary>2. Data Type - String </summary>
+
+# Data Type - String
+
+### PYTHON SOLUTION:
+
+```py
+
 ```
 
 ```py
@@ -36,37 +86,6 @@ def solution(number):
 ```
 
 ### JAVASCRIPT SOLUTION:
-
-```js
-
-```
-
-```js
-
-```
-
-```js
-
-```
-
-# #END</details>
-
-<details>
-<summary>2. Data Type - String </summary>
-
-# Data Type - String
-
-```py
-
-```
-
-```py
-
-```
-
-```py
-
-```
 
 ```py
 
