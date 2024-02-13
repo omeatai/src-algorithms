@@ -103,11 +103,19 @@ def even_or_odd(number):
 ### JAVASCRIPT SOLUTION:
 
 ```py
-
+function evenOrOdd(number) {
+  return number%2==0 ? "Even" : "Odd" 
+}
 ```
 
 ```py
-
+function evenOrOdd(number) {
+  if (number % 2 == 0){
+    return "Even"
+  }else{
+    return "Odd"
+    }
+}
 ```
 
 ```py
