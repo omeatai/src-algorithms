@@ -20,7 +20,11 @@ Note: If the number is a multiple of both 3 and 5, only count it once.
 ### PYTHON SOLUTION:
 
 ```py
-
+def solution(number):
+    if number == (abs(number) * -1):
+        return 0
+    list_of_numbers = [i for i in range(1,number) if i%3==0 or i%5==0]
+    return sum(list_of_numbers)
 ```
 
 ```py
