@@ -67,22 +67,37 @@ function solution(number) {
 # #END</details>
 
 <details>
-<summary>2. Data Type - String </summary>
+<summary>2. Even or Odd </summary>
 
-# Data Type - String
+# Even or Odd
+
+DESCRIPTION:
+
+Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 
 ### PYTHON SOLUTION:
 
 ```py
-
+def even_or_odd(number):
+    return "Even" if number%2==0 else "Odd"
 ```
 
 ```py
-
+def even_or_odd(number):
+	return 'Odd' if number % 2 else 'Even'
 ```
 
 ```py
+def even_or_odd(number):
+  if number % 2 == 0:
+    return "Even"
+  else:
+    return "Odd"
+```
 
+```py
+def even_or_odd(number):
+  return ["Even", "Odd"][number % 2]
 ```
 
 ### JAVASCRIPT SOLUTION:
