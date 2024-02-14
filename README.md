@@ -7,6 +7,8 @@
 
 # Multiples of 3 or 5
 
+[https://www.codewars.com/kata/514b92a657cdc65150000006](https://www.codewars.com/kata/514b92a657cdc65150000006)
+
 DESCRIPTION:
 
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
@@ -71,6 +73,8 @@ function solution(number) {
 
 # Even or Odd
 
+[https://www.codewars.com/kata/53da3dbb4a5168369a0000fe](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe)
+
 DESCRIPTION:
 
 Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
@@ -124,6 +128,8 @@ function evenOrOdd(number) {
 <summary>3. Even or Odd </summary>
 
 # Even or Odd
+
+[https://www.codewars.com/kata/54ff3102c1bad923760001f3](https://www.codewars.com/kata/54ff3102c1bad923760001f3)
 
 DESCRIPTION:
 
